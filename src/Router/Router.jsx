@@ -29,7 +29,7 @@ const myCreatedRoute = createBrowserRouter([
             {
                path:"/card/:id",
                element:<CardDetails/>,
-               loader:()=> fetch('./data.json')
+               loader:()=> fetch('../data.json')
             }
            
         ]

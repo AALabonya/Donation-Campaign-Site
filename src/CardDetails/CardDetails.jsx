@@ -8,20 +8,23 @@ const CardDetails = () => {
     const {id}= useParams();
       const idParse = parseInt(id)
     const card = cards.find(card=> card.id === idParse)
-   console.log(card);
+
+
 
     return (
+       <div className="max-w-7xl mx-auto">
+           <img src={card.picture} alt="" className="w-[1400px] h-[500px]" />
+          <div className=" bg-transparent">
+            <div className="bg-transparent py-5">
+            <button className="btn btn-error absolute top-[66%] ml-8">Donation $ {card.price}</button>
+            </div>
+             </div>
+         
         <div>
-            <div className="hero min-h-screen bg-base-200">
-  <div className="hero-content text-center">
-    <div className="max-w-md">
-      <h1 className="text-5xl font-bold">Hello there</h1>
-      <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button className="btn btn-primary">Get Started</button>
-    </div>
-  </div>
-</div>
+            <h1>{card.title}</h1>
+            <p>{card.description}</p>
         </div>
+       </div>
     );
 };
 
