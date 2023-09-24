@@ -1,0 +1,136 @@
+[
+    {
+      "id": 1,
+      "picture":"https://i.ibb.co/c3LWP2T/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg_color": "#0052FF",
+      "card_bg_color": "#0052FF",
+      "text_button_bg_color": "#0052FF",
+      "description": "Access to clean water, basic toilets, and good hygiene practices is essential for children’s health and well-being1. It not only keeps children thriving but also gives them a healthier start in life1. However, it is alarming that three billion people worldwide, including hundreds of millions of school-going children, do not have access to handwashing facilities with soap1. People living in rural areas, urban slums, disaster-prone areas, and low-income countries are the most vulnerable and affected1.",
+      "price": 290.00
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/sPx9RVn/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg_color": "#FF444A",
+      "card_bg_color": "#FF444A",
+      "text_button_bg_color": "#FF444A",
+      "description": "There are many things that can be done to ensure that all people have access to a good education.Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price": 290.00
+    },
+    {
+      "id": 3,
+      "picture": "https://i.ibb.co/Ydyfkwf/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg_color": "#79C23F",
+      "card_bg_color": "#79C23F",
+      "text_button_bg_color": "#79C23F",
+      "description":  "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive. Used clothing drives divert waste from landfills by giving people an alternative disposal method for unwanted, ripped or stained items.",
+      "price": 290.00
+    },
+    {
+      "id": 4,
+      "picture": "https://i.ibb.co/XJ2SLYx/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg_color": "#F87147",
+      "card_bg_color": "#F87147",
+      "text_button_bg_color": "#F87147",
+      "description": "There are certain foods that it is best for people to eat every day, including lean proteins and a variety of berry fruits and vegetables.Additionally, olive oil, nuts, and other foods can help lower the risk of certain conditions.Consuming a healthy diet that includes all the food groups can help a person improve their intake of nutrients. Many people eat repetitive diets and the same foods every week.Incorporating the following foods into weekly meal plans can help them stay healthy and perform at their best.",
+      "price": 290.00
+    },
+    {
+      "id": 5,
+      "picture": "https://i.ibb.co/XJ2SLYx/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg_color": "#F87147",
+      "card_bg_color": "#F87147",
+      "text_button_bg_color": "#F87147",
+      "description":"There are certain foods that it is best for people to eat every day, including lean proteins and a variety of berry fruits and vegetables.Additionally, olive oil, nuts, and other foods can help lower the risk of certain conditions.Consuming a healthy diet that includes all the food groups can help a person improve their intake of nutrients. Many people eat repetitive diets and the same foods every week.Incorporating the following foods into weekly meal plans can help them stay healthy and perform at their best.",
+      "price": 290.00
+    },
+    {
+      "id": 6,
+      "picture": "https://i.ibb.co/Ydyfkwf/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg_color": "#79C23F",
+      "card_bg_color": "#79C23F",
+      "text_button_bg_color": "#79C23F",
+      "description":  "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive. Used clothing drives divert waste from landfills by giving people an alternative disposal method for unwanted, ripped or stained items.",
+      "price": 290.00
+    },
+    {
+      "id": 7,
+      "picture":"https://i.ibb.co/sPx9RVn/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg_color": "#FF444A",
+      "card_bg_color": "#FF444A",
+      "text_button_bg_color": "#FF444A",
+      "description": "There are many things that can be done to ensure that all people have access to a good education.Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price": 290.00
+    },
+    {
+      "id": 8,
+      "picture": "https://i.ibb.co/c3LWP2T/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg_color": "#0052FF",
+      "card_bg_color": "#0052FF",
+      "text_button_bg_color": "0052FF",
+      "description":"Access to clean water, basic toilets, and good hygiene practices is essential for children’s health and well-being1. It not only keeps children thriving but also gives them a healthier start in life1. However, it is alarming that three billion people worldwide, including hundreds of millions of school-going children, do not have access to handwashing facilities with soap1. People living in rural areas, urban slums, disaster-prone areas, and low-income countries are the most vulnerable and affected1.",
+      "price": 290.00
+    },
+    {
+      "id": 9,
+      "picture": "https://i.ibb.co/c3LWP2T/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg_color": "#0052FF",
+      "card_bg_color": "#0052FF",
+      "text_button_bg_color": "#0052FF",
+      "description": "Access to clean water, basic toilets, and good hygiene practices is essential for children’s health and well-being1. It not only keeps children thriving but also gives them a healthier start in life1. However, it is alarming that three billion people worldwide, including hundreds of millions of school-going children, do not have access to handwashing facilities with soap1. People living in rural areas, urban slums, disaster-prone areas, and low-income countries are the most vulnerable and affected1.",
+      "price": 290.00
+    },
+    {
+      "id": 10,
+      "picture": "https://i.ibb.co/sPx9RVn/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg_color": "#FF444A",
+      "card_bg_color": "#FF444A",
+      "text_button_bg_color": "#FF444A",
+      "description": "There are many things that can be done to ensure that all people have access to a good education.Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price": 290.00
+    },
+    {
+      "id": 11,
+      "picture":"https://i.ibb.co/Ydyfkwf/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg_color": "#79C23F",
+      "card_bg_color": "#79C23F",
+      "text_button_bg_color": "#79C23F",
+      "description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive. Used clothing drives divert waste from landfills by giving people an alternative disposal method for unwanted, ripped or stained items.",
+      "price": 290.00
+    },
+    {
+      "id": 12,
+      "picture": "https://i.ibb.co/XJ2SLYx/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg_color": "#F87147",
+      "card_bg_color": "#F87147",
+      "text_button_bg_color": "#F87147",
+      "description": "There are certain foods that it is best for people to eat every day, including lean proteins and a variety of berry fruits and vegetables.Additionally, olive oil, nuts, and other foods can help lower the risk of certain conditions.Consuming a healthy diet that includes all the food groups can help a person improve their intake of nutrients. Many people eat repetitive diets and the same foods every week.Incorporating the following foods into weekly meal plans can help them stay healthy and perform at their best.",
+      "price": 290.00
+    }
+  ]
+
+  
