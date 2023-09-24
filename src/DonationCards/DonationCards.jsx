@@ -7,7 +7,7 @@ import Card from "./Card";
 const DonationCards = () => {
   const cards = useLoaderData()
 
-   console.log(cards);
+//    console.log(cards);
 
     return (
         <div>
