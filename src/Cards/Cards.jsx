@@ -34,7 +34,7 @@ const Cards = ({card}) => {
     <button className="mb-4 block font-sans text-base font-semibold uppercase antialiased btn" style={bgCategory}>
       <span style={textColor}>{category}</span>
     </button>
-    <h4 className="mb-2 block font-sans text-2xl font-bold">
+    <h4 className="mb-2 block font-sans text-2xl font-bold" style={textColor}>
       {title}
     </h4>
     <p className="mb-8 block font-sans text-base font-bold leading-relaxed antialiased">
