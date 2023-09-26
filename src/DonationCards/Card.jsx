@@ -14,8 +14,8 @@ const Card = ({card}) => {
     backgroundColor: category_bg_color
   };
 
-  const text = {
-    backgroundColor: text_button_bg_color
+  const textColor = {
+    color: text_button_bg_color,
   };
  
 
@@ -23,12 +23,12 @@ const Card = ({card}) => {
        <Link to={`card/${id}`}>
         <div className={`bg-[${card_bg_color}]`}>
             <div className="card card-compact bg-base-100 shadow-xl" style={bgColor}>
-  <figure><img src={picture} alt="Shoes" /></figure>
+  <figure><img src={picture} alt="Shoes" className="h-[258px]" /></figure>
   <div className="card-body">
    <div className="flex justify-start">
-   <button className="btn" style={bgCategory}>{category}</button>
+   <button className="btn font-bold normal-case" style={bgCategory}> <span style={textColor} > {category}</span></button>
    </div>
-    <p className="buttonStyle">{title}</p>
+    <p><span className="text-xl font-bold" style={textColor}>{title}</span></p>
   </div>
             </div>
         </div>

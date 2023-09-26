@@ -3,16 +3,67 @@
 /* eslint-disable react/prop-types */
 import { useLoaderData } from "react-router-dom";
 import Card from "./Card";
+import { useEffect, useRef, useState } from "react";
+import { getStoredDonationCard } from "../dataStored/LocalStorage";
 
 const DonationCards = () => {
   const cards = useLoaderData()
+  
+  const[getData, setGetData]= useState(cards)
+  
+  const inputValue= useRef()
 
+const handleSearch=()=>{
+    
+    const card = (inputValue.current.value).toLowerCase();
+
+    const filterData= getData.filter(data=> data.category.toLowerCase().includes(card));
+    setGetData(filterData)
+}
 
     return (
         <div>
+
+<div className="flex justify-center">
+         <div className="flex justify-center w-[1600px] h-[500px] mb-[300px]  bg-cover">
+            <div className="hero min-h-screen relative" style={{backgroundImage:'url(https://i.ibb.co/4jHjDMQ/bannerpicture.jpg)'}}>
+                <div className="absolute inset-0 bg-white opacity-90">              
+                </div>
+                <div className="searchbar absolute bottom-[43%] w-full px-20">
+                <div className="flex-1 text-center mb-6">
+                <h1 className="text-5xl font-bold">I Grow By Helping People In Need</h1>
+         
+      </div>
+      <div>
+     
+          <label className="mb-2 text-sm font-medium sr-only dark:text-white">
+            Search
+          </label>
+          <div className="relative">
+            <input ref={inputValue}
+             type="search"
+             name="search"
+             id="default-search"
+              className="block w-full p-4 pl-10 text-sm border rounded-lg bg-gray-50"
+              placeholder="Search by category..." 
+              required/>
+            <button type="submit" onClick={handleSearch} className="text-white absolute right-[1px] bottom-[1px] bg-[#FF444A] font-medium rounded-lg text-sm px-6 py-4">
+              Search
+            </button>
+          </div>
+       
+      </div>
+          
+      </div>
+   
+            </div>
+      
+     
+        </div>
+       </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-10 max-w-7xl mx-auto">
                {
-                cards?.map(card=><Card key={card.id} card={card}></Card>)
+                getData?.map(card=><Card key={card.id} card={card}></Card>)
                }
             </div>
         </div>
