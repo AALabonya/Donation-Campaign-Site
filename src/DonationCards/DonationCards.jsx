@@ -25,13 +25,13 @@ const handleSearch=()=>{
         <div>
 
 <div className="flex justify-center">
-         <div className="flex justify-center w-[1600px] h-[500px] mb-[300px]  bg-cover">
-            <div className="hero min-h-screen relative" style={{backgroundImage:'url(https://i.ibb.co/4jHjDMQ/bannerpicture.jpg)'}}>
+         <div className="flex justify-center w-[1600px] bg-auto">
+            <div className="hero min-h-screen relative md:bg-contain md:bg-no-repeat sm:bg-contain" style={{backgroundImage:'url(https://i.ibb.co/4jHjDMQ/bannerpicture.jpg)'}}>
                 <div className="absolute inset-0 bg-white opacity-90">              
                 </div>
                 <div className="searchbar absolute bottom-[43%] w-full px-20">
                 <div className="flex-1 text-center mb-6">
-                <h1 className="text-5xl font-bold">I Grow By Helping People In Need</h1>
+                <h1 className="text-lg  md:text-4xl lg:text-5xl font-bold">I Grow By Helping People In Need</h1>
          
       </div>
       <div>
@@ -44,10 +44,10 @@ const handleSearch=()=>{
              type="search"
              name="search"
              id="default-search"
-              className="block w-full p-4 pl-10 text-sm border rounded-lg bg-gray-50"
-              placeholder="Search by category..." 
+              className="block w-full p-4 pl-1 md:pl-8 lg:pl-10 md:text-sm border rounded-lg bg-gray-50 text-[11px]"
+              placeholder="Search category" 
               required/>
-            <button type="submit" onClick={handleSearch} className="text-white absolute right-[1px] bottom-[1px] bg-[#FF444A] font-medium rounded-lg text-sm px-6 py-4">
+            <button type="submit" onClick={handleSearch} className="text-white absolute right-[1px] bottom-[1px] bg-[#FF444A] font-medium rounded-lg text-sm px-2 py-3.5 md:px-6 md:py-4 lg:px-6 lg:py-4">
               Search
             </button>
           </div>
