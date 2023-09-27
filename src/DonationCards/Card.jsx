@@ -17,8 +17,7 @@ const Card = ({card}) => {
   const textColor = {
     color: text_button_bg_color,
   };
- 
-
+  
     return (
        <Link to={`card/${id}`}>
         <div className={`bg-[${card_bg_color}]`}>

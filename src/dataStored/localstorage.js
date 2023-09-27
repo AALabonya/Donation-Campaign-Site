@@ -10,8 +10,6 @@ const getStoredDonationCard =()=>{
 
 }
 
-
-
 const saveDonationCard = id =>{
  const storedDonationCards = getStoredDonationCard();
  const isExist = storedDonationCards.find(cardId => cardId === id)
@@ -21,9 +19,8 @@ const saveDonationCard = id =>{
     localStorage.setItem("donation-card", JSON.stringify(storedDonationCards))
     swal("Good job!", "Donation Successful!", "success");
 }else{
-    swal("Already Exist!", "No Duplicate!", "error");
+    swal("Exist!", "Already Donated!", "error");
 }
-
 
 }
 

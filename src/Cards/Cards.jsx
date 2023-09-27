@@ -2,8 +2,8 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 
-import { Link, useLoaderData, useNavigate} from "react-router-dom";
-import { saveDonationCard } from "../dataStored/LocalStorage";
+import { Link} from "react-router-dom";
+
 
 const Cards = ({card}) => {
     const{id,picture,title,category,card_bg_color,category_bg_color,text_button_bg_color,price}= card || {}

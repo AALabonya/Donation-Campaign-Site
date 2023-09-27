@@ -19,8 +19,7 @@ const CardDetails = () => {
     backgroundColor: text_button_bg_color,
   };
  
-
-    return (
+   return (
        <div className="flex-1 justify-center max-w-7xl mx-auto mt-3">
         <div className="relative mt-4 rounded-xl">
           <div>

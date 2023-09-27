@@ -31,7 +31,6 @@ const Donation = () => {
  }
 
     return <div>{noFound ? <p className="h-[80vh] flex justify-center items-center text-xl font-bold">{noFound}</p>
-    
     :
   <div>
          <div className="flex justify-center">
