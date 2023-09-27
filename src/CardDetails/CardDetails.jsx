@@ -22,21 +22,17 @@ const CardDetails = () => {
 
     return (
        <div className="flex-1 justify-center max-w-7xl mx-auto mt-3">
-           <div >
-           <img src={picture} alt="" className="w-[1280px] h-[200px] md:h-[300px]  lg:h-[500px] flex text-center items-center justify-center"/>
-           </div>
-       
-            
-         
-        <div className="hero-overlay lg:py-5 absolute h-[50px] top-[58%]  md:top-[90%] lg:top-[63%] lg:w-[1280px] mx-auto lg:h-[90px] ">
-        <div >
-            <button onClick={handleAddDonation} className="lg:ml-8 w-20 h-7 mt-3 items-center ml-3 rounded-sm mb-2 lg:w-36 lg:h-12 lg:mb-3 lg:mt-1 md:mt-3" 
-            style={textColor1}> 
+        <div className="relative mt-4 rounded-xl">
+          <div>
+              <img src={picture} alt="" className="w-full h-[60vh] rounded-lg" />
+          </div>
+          <div className="lg:h-28 md:h-16 h-14 w-full bg-opacity-30 bg-black absolute bottom-0">
+              <button onClick={handleAddDonation} className="btn lg:my-9 md:my-2 lg:ml-9 md:ml-5 my-1 ml-3 px-2 py-4 lg:px-5 lg:py-3"
+              style={textColor1}> 
             <span className="text-white text-xs items-center  lg:text-lg"> Donate $</span>
              <span className="text-white text-xs lg:text-lg" >{price}</span>
-            </button>
-         </div>
-           
+              </button>
+          </div>
         </div>
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-2 mb-2 ml-1 md:ml-2">{title}</h1>
             <p className="text-sm lg:text-base ml-1 md:ml-2">{description}</p>

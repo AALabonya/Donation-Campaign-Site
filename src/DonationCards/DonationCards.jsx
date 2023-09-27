@@ -8,35 +8,43 @@ import { getStoredDonationCard } from "../dataStored/LocalStorage";
 
 const DonationCards = () => {
   const cards = useLoaderData()
-  
   const[getData, setGetData]= useState(cards)
+
+  const[searchValue, setSearchValue]= useState(cards);
   
   const inputValue= useRef()
 
 const handleSearch=()=>{
     
-    const card = (inputValue.current.value).toLowerCase();
+  const card = inputValue.current.value.toLowerCase();
 
-    const filterData= getData.filter(data=> data.category.toLowerCase().includes(card));
-    setGetData(filterData)
+  if(card){
+    const filterData= cards.filter(data=> data.category.toLowerCase().includes(card));
+    setGetData(filterData);
+  }else{
+    setGetData(cards)
+  }
+  
+
+
 }
 
     return (
         <div>
 
 <div className="flex justify-center">
-         <div className="flex justify-center w-[1600px] bg-auto">
+         <div className="flex justify-center w-full bg-auto">
             <div className="hero min-h-screen relative md:bg-contain md:bg-no-repeat sm:bg-contain" style={{backgroundImage:'url(https://i.ibb.co/4jHjDMQ/bannerpicture.jpg)'}}>
                 <div className="absolute inset-0 bg-white opacity-90">              
                 </div>
-                <div className="searchbar absolute bottom-[43%] w-full px-20">
+                <div className="searchbar absolute bottom-[43%] px-20">
                 <div className="flex-1 text-center mb-6">
                 <h1 className="text-lg  md:text-4xl lg:text-5xl font-bold">I Grow By Helping People In Need</h1>
          
       </div>
       <div>
      
-          <label className="mb-2 text-sm font-medium sr-only dark:text-white">
+          <label className="mb-2 text-sm font-medium sr-only dark:text-white h-[40vh]">
             Search
           </label>
           <div className="relative">
@@ -71,3 +79,4 @@ const handleSearch=()=>{
 };
 
 export default DonationCards;
+
