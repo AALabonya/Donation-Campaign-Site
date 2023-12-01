@@ -18,8 +18,6 @@ const saveDonationCard = id =>{
     storedDonationCards.push(id);
     localStorage.setItem("donation-card", JSON.stringify(storedDonationCards))
     swal("Good job!", "Donation Successful!", "success");
-}else{
-    swal("Exist!", "Already Donated!", "error");
 }
 
 }

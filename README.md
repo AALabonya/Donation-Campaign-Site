@@ -1,8 +1,8 @@
-# Donation-Campaign-Assignment
+# Donation-Campaign
 
 
-## Add at least 3 Project features.
-The three Donation-Campaign project feature are given below:
+## Project features.
+ Donation-Campaign project feature are given below:
 
 - This web page is dynamic. It is designed to be responsive that Users can access and use the donation system on different platforms like desktops, tablets, and smartphones.
 

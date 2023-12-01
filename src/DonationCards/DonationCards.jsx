@@ -19,7 +19,7 @@ const handleSearch=()=>{
   const card = inputValue.current.value.toLowerCase();
 
   if(card){
-    const filterData= cards.filter(data=> data.category.toLowerCase().includes(card));
+    const filterData= cards.filter(data=> data.name.toLowerCase().includes(card));
     setGetData(filterData);
   }else{
     setGetData(cards)
@@ -41,7 +41,6 @@ const handleSearch=()=>{
          
       </div>
       <div>
-     
           <label className="mb-2 text-sm font-medium sr-only dark:text-white h-[40vh]">
             Search
           </label>
@@ -61,9 +60,7 @@ const handleSearch=()=>{
       </div>
           
       </div>
-   
-            </div>
-      
+     </div>  
         </div>
        </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-10 max-w-7xl mx-auto">
